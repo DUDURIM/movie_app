@@ -13,14 +13,18 @@ class Detail extends React.Component {
         const { location } = this.props;
         if (location.state) {
         return <span className="detail">
-            {location.state.title} <br/><br/>
-            {location.state.summary} <br/><br/>
-            {location.state.genres}
+            <img className="movieposter" src={location.state.poster} alt="poster"/><br/>
+            <p className="yearfont"><strong>Year:</strong> {location.state.year}</p><br/>
+            <p className="titlefont"><strong>Title:</strong> {location.state.title}</p><br/>
+            <p className="summaryfont"><strong>Summary:</strong> {location.state.summary}</p><br/>
+            <li className="genresfont"><strong>Genres:</strong> {location.state.genres}</li><br/>
             </span>;
     } else {
         return null;
     }
-    }
+    }    
 }
 
 export default Detail;
+
+

@@ -18,12 +18,42 @@
         top: initial;
         width: 100%;
     }
+
+    .movieposter {
+        width: 50%;
+        margin: 0 auto;
+    }
 }
 
 .detail {
     text-decoration: none;
-    text-transform: uppercase;
     font-size: 25px;
-    text-align: center;
-    font-weight: 600;
+    text-align: left;
 }
+
+.movieposter {
+    width: 50%;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.yearfont {
+    font-size: 18px;
+}
+
+.titlefont {
+    font-size: 18px;
+    margin-top: -25px;
+}
+
+.summaryfont {
+    font-size: 18px;
+    margin-top: -25px;
+}
+
+.genresfont {
+    margin-top: -25px;
+   font-size: 18px;
+   list-style: none;
+}
+
