@@ -51,9 +51,20 @@
     margin-top: -25px;
 }
 
-.genresfont {
-    margin-top: -25px;
-   font-size: 18px;
-   list-style: none;
+.movie__genres {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 0px;
 }
 
+.movie__genres li {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.movie__genres > strong {
+    font-size: 18px;
+}
